@@ -16,7 +16,7 @@
     "editor.suggest.showStatusBar": true,
     "workbench.list.horizontalScrolling": true,
     "workbench.list.smoothScrolling": true,
-    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.activityBar.iconClickBehavior": "toggle",
     "workbench.preferredLightColorTheme": "PyCharm Dark+ Theme",
     "workbench.preferredDarkColorTheme": "PyCharm Dark+ Theme",
     "workbench.preferredHighContrastColorTheme": "PyCharm Night Theme",
