@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title>
-      Web
-    </title>
-    <link href="docs/style.css" rel="stylesheet">
+    <title>Web</title>
+    <link href="docs/style.css" rel="stylesheet" />
   </head>
+
   <body onload="
-    var file = new XMLHttpRequest();
-    file.open('GET', 'docs/index.html', true);
-    file.onreadystatechange = function() {
+      var file = new XMLHttpRequest();
+      file.open('GET', 'docs/index.html', true);
+      file.onreadystatechange = function() {
       if (file.readyState === 4) {
         document.body.innerHTML = file.responseText;
       }
@@ -17,4 +17,5 @@
     file.send();
   "></body>
   <script src="docs/script.js"></script>
+
 </html>
