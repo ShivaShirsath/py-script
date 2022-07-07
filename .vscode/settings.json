@@ -3,7 +3,7 @@
     "editor.tabSize": 2,
     "editor.renderWhitespace": "all",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
-    "editor.columnSelection": true,
+    "editor.columnSelection": false,
     "editor.foldingImportsByDefault": true,
     "editor.mouseWheelZoom": true,
     "editor.smoothScrolling": true,
